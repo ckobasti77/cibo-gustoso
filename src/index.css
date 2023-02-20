@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.logo {
+  font-family: 'Elsie', cursive;
+}
+
+.nav-left, .nav-right {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+.home {
+  background-image: url('./assets/Full-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
